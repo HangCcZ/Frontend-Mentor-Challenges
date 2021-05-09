@@ -45,43 +45,73 @@
     </style>
   </head>
   <body class="background">
-    <div class="w-11/12 container mt-20 mx-auto">
-      <div class="mx-auto">
-        <img src="./images/image-header-mobile.jpg" alt="office scene" />
+    <div
+      class="m-auto md:mt-20 w-10/12 md:flex md:flex-row-reverse md:w-9/12 md:mt-28"
+    >
+      <div class="md:w-1/2 relative sm:mt-10 md:mt-0">
+        <img
+          src="./images/image-header-mobile.jpg"
+          alt="office scene"
+          class="md:hidden rounded-t-xl"
+        />
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="office scene"
+          class="hidden md:block w-full h-full object-cover object-center absolute inset-0 rounded-r-xl"
+        />
       </div>
-      <div class="card-background">
+
+      <div class="card-background rounded-l-xl md:w-1/2 md:pr-4 md:pl-2">
         <div>
-          <div class="mx-8 pt-5 text-center text-3xl heading-stats">
+          <div
+            class="font-bold mx-8 pt-5 text-center text-3xl heading-stats md:text-left md:pt-0 md:mt-8 md:text-2xl lg:text-4xl"
+          >
             <p>
               Get <span class="accent">insights</span> that help your business
               grow.
             </p>
           </div>
-          <div class="mx-4 mt-4 text-center text-sm paragraph">
+          <div
+            class="mx-4 mt-4 text-center text-sm paragraph md:text-left md:mx-8 md:mt-5 md:text-xs lg:text-xl"
+          >
             <p>
               Discover the benefits of data analytics and make better decisions
               regarding revenue, customer experience, and overall efficiency.
             </p>
           </div>
-          <div class="mt-6 text-center">
-            <div>
-              <p class="text-3xl heading-stats">10k+</p>
-              <p class="text-sm stats-heading mt-1">COMPANIES</p>
+          <div
+            class="mt-6 text-center md:flex md:mt-2 md:mx-8 md:text-left md:justify-between pb-4"
+          >
+            <div class="mt-4 md:flex-auto">
+              <p class="font-bold text-2xl heading-stats md:text-lg lg:text-xl">
+                10k+
+              </p>
+              <p class="text-sm stats-heading mt-1 md:text-xs lg:text-lg">
+                COMPANIES
+              </p>
             </div>
 
-            <div class="mt-4">
-              <p class="text-3xl heading-stats">314</p>
-              <p class="text-sm stats-heading mt-1">TEMPLATES</p>
+            <div class="mt-4 md:flex-auto">
+              <p class="font-bold text-2xl heading-stats md:text-lg lg:text-xl">
+                314
+              </p>
+              <p class="text-sm stats-heading mt-1 md:text-xs lg:text-lg">
+                TEMPLATES
+              </p>
             </div>
 
-            <div class="mt-4">
-              <p class="text-3xl heading-stats">12m+</p>
-              <p class="text-sm stats-heading mt-1">QUERIES</p>
+            <div class="mt-4 md:flex-auto">
+              <p class="font-bold text-2xl heading-stats md:text-lg lg:text-xl">
+                12M+
+              </p>
+              <p class="text-sm stats-heading mt-1 md:text-xs lg:text-lg">
+                QUERIES
+              </p>
             </div>
           </div>
         </div>
 
-        <div class="mt-5 attribution py-3">
+        <div class="attribution pb-3 md:text-xs">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
             >Frontend Mentor</a
