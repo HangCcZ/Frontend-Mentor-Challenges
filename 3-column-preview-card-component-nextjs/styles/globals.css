@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brightOrange: hsl(31, 77%, 52%);
+  --darkCyan: hsl(184, 100%, 22%);
+  --veryDarkCyan: hsl(179, 100%, 13%);
+}
+
+.brightOrange {
+  background-color: var(--brightOrange);
+}
+
+.darkCyan {
+  background-color: var(--darkCyan);
+}
+
+.veryDarkCyan {
+  background-color: var(--veryDarkCyan);
+}
+
+.brightOrange-font {
+  color: var(--brightOrange);
+}
+
+.darkCyan-font {
+  color: var(--darkCyan);
+}
+
+.veryDarkCyan-font {
+  color: var(--veryDarkCyan);
+}
