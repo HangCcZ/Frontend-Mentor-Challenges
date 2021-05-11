@@ -15,6 +15,7 @@ export default function Home() {
             className="brightOrange rounded-t-xl py-8 px-7 
           md:rounded-l-xl md:rounded-t-none
           md:px-10
+          md:w-4/12
          "
           >
             <Image
@@ -26,15 +27,15 @@ export default function Home() {
             <h2 className="mt-6 text-white font-semibold text-4xl uppercase tracking-tight">
               Sedans
             </h2>
-            <p className="mt-6 text-white text-opacity-75 md:min-h-44 lg:min-h-36 xl:min-h-20">
+            <p className="mt-6 text-white text-opacity-75 md:min-h-48 lg:min-h-36 xl:min-h-20">
               Choose a sedan for its affordability and excellent fuel economy.
               Ideal for cruising in the city or on your next road trip.
             </p>
-            <button className="hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-white mt-6 bg-gray-100 font-semibold px-7 py-3 rounded-3xl brightOrange-font">
+            <button className="hover:bg-yellow-200 focus:outline-none focus:ring-2 focus:ring-white mt-6 bg-gray-100 font-semibold px-6 py-3 rounded-3xl brightOrange-font">
               Learn More
             </button>
           </div>
-          <div className="darkCyan py-8 px-7 md:px-10">
+          <div className="darkCyan py-8 px-7 md:px-10 md:w-4/12 ">
             <Image
               src="/images/icon-suvs.svg"
               alt="sedan icon"
@@ -44,15 +45,15 @@ export default function Home() {
             <h2 className="mt-6 text-white font-semibold text-4xl uppercase tracking-tight">
               SUVs
             </h2>
-            <p className="mt-6 text-white text-opacity-75 md:min-h-44 lg:min-h-36 xl:min-h-20">
+            <p className="mt-6 text-white text-opacity-75 md:min-h-48 lg:min-h-36 xl:min-h-20">
               Take an SUV for its spacious interior, power, and versatility.
               Perfect for your next family vacation and off-road adventures.
             </p>
-            <button className="hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-white mt-6 bg-gray-100 font-semibold px-7 py-3 rounded-3xl darkCyan-font">
+            <button className="hover:bg-green-300 focus:outline-none focus:ring-2 focus:ring-white mt-6 bg-gray-100 font-semibold px-6 py-3 rounded-3xl darkCyan-font">
               Learn More
             </button>
           </div>
-          <div className="veryDarkCyan rounded-b-xl py-8 px-7 md:rounded-r-xl md:rounded-b-none md:px-10 ">
+          <div className="veryDarkCyan rounded-b-xl py-8 px-7 md:rounded-r-xl md:rounded-b-none md:px-10 md:w-4/12 ">
             <Image
               src="/images/icon-luxury.svg"
               alt="sedan icon"
@@ -62,11 +63,11 @@ export default function Home() {
             <h2 className="mt-6 text-gray-100 font-semibold text-4xl uppercase tracking-tight">
               Luxury
             </h2>
-            <p className="mt-6 text-white text-opacity-75 md:min-h-44 lg:min-h-36 xl:min-h-20">
+            <p className="mt-6 text-white text-opacity-75 md:min-h-48 lg:min-h-36 xl:min-h-20">
               Luxury Cruise in the best car brands without the bloated prices.
               Enjoy the enhanced comfort of a luxury rental and arrive in style.
             </p>
-            <button className="hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-white mt-6 bg-gray-100 font-semibold px-7 py-3 rounded-3xl veryDarkCyan-font">
+            <button className="hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-white mt-6 bg-gray-100 font-semibold px-6 py-3 rounded-3xl veryDarkCyan-font">
               Learn More
             </button>
           </div>
