@@ -3,4 +3,4 @@
 ---
 
 - Stats preview card component. [Click here to see](https://frontend-mentor-challenges-stats-card-k1da2lm0v-hangczz.vercel.app/)
-- 3-column preview card component. [Click here to see](https://frontend-mentor-challenges-nextjs-h8tbvz3gz-hangczz.vercel.app/)
+- 3-column preview card component. [Click here to see](https://frontend-mentor-challenges-nextjs.vercel.app/)
