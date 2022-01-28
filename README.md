@@ -1,4 +1,4 @@
-# This repository contain my solutions to the frontend coding challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges).
+# This repository contain my solutions to the frontend coding challenges from [Frontend Mentor](https://www.frontendmentor.io/challenges). I'm taking these challenges to improve my frontend skills.
 # I'm using Next.js and Tailwind CSS to tackle these challenges and all projects are deployed on Vercel.
 ---
 
