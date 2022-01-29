@@ -2,73 +2,61 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center py-2">
+    <div className="flex min-h-screen flex-col items-center justify-center bg-indigo-200">
       <Head>
-        <title>Create Next App</title>
+        <title>Order Summary Component Main</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
+      <main className="flex flex-1 flex-col items-center justify-center px-5">
+        <div className="">
+          <img src="./illustration-hero.svg" className="rounded-t-2xl" />
+        </div>
 
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="rounded-md bg-gray-100 p-3 font-mono text-lg">
-            pages/index.tsx
-          </code>
-        </p>
+        <div className="rounded-b-3xl bg-very-pale-blue">
+          <h2 className="mt-6 text-center text-2xl font-bold text-dark-blue">
+            Order Summary
+          </h2>
 
-        <div className="mt-6 flex max-w-4xl flex-wrap items-center justify-around sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
+          <p className="text-md mt-5 px-7 text-center font-normal text-desaturated-blue">
+            You can now listent to millions of songs, audiobooks, and podcasts
+            on any devices anywhere you like!
+          </p>
+
+          <div className="mx-5 mt-7 flex items-center rounded-xl bg-indigo-50 py-4 px-0">
+            <img src="icon-music.svg" alt="music icon" className="ml-4" />
+
+            <div className="ml-5 flex flex-col">
+              <p className="text-sm font-bold text-dark-blue">Annual Plan</p>
+              <p className="text-sm font-medium text-desaturated-blue">
+                $59.99/year
+              </p>
+            </div>
+
+            <p className="ml-16 text-sm font-semibold text-bright-blue underline decoration-wavy">
+              Change
             </p>
-          </a>
+          </div>
+          <div className="mx-5 mt-6 rounded-xl bg-bright-blue px-2 py-3  text-center shadow-md shadow-indigo-500/50  hover:bg-indigo-500">
+            <button className="font-semibold text-white">
+              Process to Payment
+            </button>
+          </div>
 
-          <a
-            href="https://nextjs.org/learn"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="mt-6 w-96 rounded-xl border p-6 text-left hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          <div className="mx-5 mt-3 mb-7 rounded-xl bg-inherit px-2 py-2 text-center ">
+            <button className="font-bold text-desaturated-blue">
+              Cancel Order
+            </button>
+          </div>
         </div>
       </main>
 
-      <footer className="flex h-24 w-full items-center justify-center border-t">
+      <footer className="mx-4 flex h-24 w-full flex-col items-center justify-center">
+        <a href="https://github.com/HangCcZ" className="px-5">
+          <p className="">Coded By Hang Chen</p>
+        </a>
         <a
-          className="flex items-center justify-center"
+          className="flex items-center justify-center "
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
