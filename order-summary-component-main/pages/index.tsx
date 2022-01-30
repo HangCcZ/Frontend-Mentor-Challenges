@@ -36,9 +36,11 @@ export default function Home() {
               </p>
             </div>
 
-            <p className="ml-16 text-sm font-semibold text-bright-blue underline decoration-wavy above-mobile:ml-14 above-425px:ml-20 above-450px:ml-24">
-              Change
-            </p>
+            <div className="ml-16 above-mobile:ml-14 above-425px:ml-20 above-450px:ml-24">
+              <button className="text-sm font-semibold text-bright-blue underline decoration-wavy hover:text-indigo-400">
+                Change
+              </button>
+            </div>
           </div>
           <div className="mx-5 mt-6 rounded-xl bg-bright-blue px-2 py-3 text-center  shadow-md shadow-indigo-500/50 hover:bg-indigo-500  above-mobile:mx-10">
             <button className="font-semibold text-white">
