@@ -6,3 +6,4 @@
 - 3-column preview card component. [Click here to see](https://frontend-mentor-challenges-nextjs.vercel.app/)
 - order-summary-component-main. [Click here to see](https://frontend-mentor-challenges-order-summary-component-main.vercel.app/)
 - tip-calculator-app. [Click here to see](https://frontend-mentor-challenge-tip-calculator-app.vercel.app/)
+- Pomodoro. (Working in progress, I do not have premium so I'm not using any asset or color from Frontend Mentor). [Click here to see the source code](https://github.com/HangCcZ/Pomodoro)
